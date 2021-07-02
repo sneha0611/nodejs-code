@@ -392,9 +392,9 @@ app.listen(8080,function(){
 //   console.log("body",request.body)   
 // })
 // //data will be in JSON object 
-// app.post("/add/friends",(req,res)=>{
-//   console.log("body",req.body)  
-//   dummyData.push (req.body)
-//   res.send(dummyData) 
-// });
+app.post("/add/friends",(req,res)=>{
+  console.log("body",req.body)  
+  dummyData.push (req.body)
+  res.send(dummyData) 
+});
 
